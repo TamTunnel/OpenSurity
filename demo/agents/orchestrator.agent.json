@@ -1,0 +1,19 @@
+{
+  "opensurity": "0.1",
+  "id": "550e8400-e29b-41d4-a716-446655440001",
+  "name": "OrchestratorAgent",
+  "version": "1.0.0",
+  "capabilities": [
+    {
+      "id": "orchestrate-pipeline",
+      "description": "Coordinate analyst and writer agents to produce reports",
+      "input": "text/plain",
+      "output": "application/json"
+    }
+  ],
+  "trust": {
+    "level": "api-key",
+    "endpoint": "http://localhost:7701"
+  },
+  "framework": "custom"
+}

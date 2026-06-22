@@ -1,0 +1,19 @@
+{
+  "opensurity": "0.1",
+  "id": "550e8400-e29b-41d4-a716-446655440002",
+  "name": "AnalystAgent",
+  "version": "1.0.0",
+  "capabilities": [
+    {
+      "id": "analyze-text",
+      "description": "Analyze text data",
+      "input": "text/plain",
+      "output": "application/json"
+    }
+  ],
+  "trust": {
+    "level": "api-key",
+    "endpoint": "http://localhost:7702"
+  },
+  "framework": "custom"
+}

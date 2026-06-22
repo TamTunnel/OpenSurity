@@ -1,0 +1,19 @@
+{
+  "opensurity": "0.1",
+  "id": "550e8400-e29b-41d4-a716-446655440003",
+  "name": "WriterAgent",
+  "version": "1.0.0",
+  "capabilities": [
+    {
+      "id": "write-summary",
+      "description": "Write summary reports",
+      "input": "application/json",
+      "output": "text/plain"
+    }
+  ],
+  "trust": {
+    "level": "api-key",
+    "endpoint": "http://localhost:7703"
+  },
+  "framework": "custom"
+}
