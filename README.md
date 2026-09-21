@@ -26,7 +26,7 @@ Before two agents communicate, OpenSurity steps in to check their "passports" (c
 From a fresh Python 3.11+ environment, run the following commands to see the 3-agent delegation pipeline in action:
 
 ```bash
-git clone https://github.com/your-org/opensurity.git
+git clone https://github.com/tamtunnel/opensurity.git
 cd opensurity
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
